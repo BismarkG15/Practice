@@ -1,0 +1,10 @@
+# Practice
+#include <stdio.h>
+#define MAX(x,y)(x>y?x:y)
+int main(void)
+{
+	int x,y;
+	scanf("%d,%d",&x,&y);
+	printf("max=%d\n",MAX(x,y));
+	return 0;
+}
