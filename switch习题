@@ -6,7 +6,7 @@ int main(void)
 	switch(n)
 	{
 		case 1:
-			m++;
+			m++;//注意观察是否加了break
 		case 2:
 			n++;
 		case 3:
