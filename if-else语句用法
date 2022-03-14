@@ -3,7 +3,7 @@ int main(void)
 {
 	int a=0;
 	int b=2;
-	if(a==1)//第一个if语句
+	if(a=1)//第一个if语句（看我在哪挖坑了）
 	if(b==2)//嵌套后的语句，必须经过第一个if才能使用
 	printf("呵呵\n")
 	else//与第二个if配对
