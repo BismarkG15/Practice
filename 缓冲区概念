@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(void)
+{
+	char password[20]={0};
+	int ret=0;
+	printf("请输入密码:\n");
+	scanf("%s",&password);//输入123456回车（\n),此时缓冲区有七个字符
+	printf("确认密码(Y/N)");//拿走123456
+	ret=getchar();//在缓冲区拿走\n
+	if(ret=='Y')
+	{
+		printf("确认成功\n");
+	}
+	else
+	{
+		printf("确认失败\n");
+	}
+}
