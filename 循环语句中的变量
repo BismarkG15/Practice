@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(void)
+{
+	int i=0;
+	int n=0;
+	int ret=1;
+	int sum=0;
+	for(n=1;n<=3;n++)
+	{
+		
+			for(i=1;i<=n;i++)
+			{
+				ret=ret*i;//前两次循环没问题，第三次循环ret初始就成了2
+			}
+			sum=sum+ret;
+		
+	}
+	printf("ret=%d\n",ret);
+	printf("sum=%d\n",sum);
+	return 0;
+}
